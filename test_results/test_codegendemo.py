@@ -12,3 +12,5 @@ def test_example2(page: Page) -> None:
     page.locator("[data-test=\"password\"]").click()
     page.locator("[data-test=\"password\"]").fill("secret_sauce")
     page.locator("[data-test=\"login-button\"]").click()
+
+    #actualizacion de script v1
